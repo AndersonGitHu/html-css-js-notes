@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cálculo de Jantar</title>
+</head>
+<body>
+   
+    <script>
+        const jantar = Number(prompt('Valor do Jantar é R$: '))
+        const garcom = jantar * 0.10
+        const total = jantar + garcom
+        alert(`O valor total do jantar é:\n R$ ${garcom.toFixed(2)} do Garçom \n R$ ${jantar.toFixed(2)} do Prato \n Total de R$ ${total.toFixed(2)}`)
+        /*  \n serve para dar quebra de página
+            .toFixed() serve para indicar a quantidade de casas decimais de um número, com o número dentro do parênteses indicando a quantidade de casas.       
+        */
+    </script>
+</body>
+</html>
